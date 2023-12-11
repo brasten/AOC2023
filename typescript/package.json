@@ -1,0 +1,23 @@
+{
+  "name": "aoc2023",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test:watch": "jest --watchAll",
+    "day01:part1": "tsx src/day01/part1.ts",
+    "day01:part2": "tsx src/day01/part2.ts"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/node": "^20.10.4",
+    "bun-types": "latest",
+    "ts-jest": "^29.1.1",
+    "tsx": "^4.6.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "arg": "^5.0.2"
+  }
+}
